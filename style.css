@@ -49,3 +49,13 @@ body{
     font-size: 22px;
     max-width: 70ch;  /* ch = maximo de caracteres */
 }
+
+.lista-rede{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+    margin: 0 auto;
+    padding: 0;
+    width: fit-content;
+    list-style: none;
+}
