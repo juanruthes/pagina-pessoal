@@ -1,0 +1,51 @@
+:root{
+    font-family: 'DM Sans', sans-serif;
+}
+
+body{
+    margin: 0
+}
+
+.cabecalho{
+    height: 15vh;
+    border: 1px solid green;
+    background: linear-gradient(to right bottom, green, black);
+    display: grid; /* centralizando os itens na pagina */
+    place-items:center; /* centralizando os itens na pagina */
+}
+
+.foto{
+    position: relative;
+
+}
+
+.foto-titulo{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    position: relative; /* Ao mudar a posição do elemento para "relative" podemos movimentar o elemento pelo left, right e top */
+    left: 1270px;
+    top: -100px;
+    border: 10px solid white;
+    box-shadow: 0 4px 4px black;
+    
+}
+
+.titulo-pagina{
+    font-size: 60px;
+    color: white;
+    text-shadow: 0 4px 4px black;
+    
+} 
+
+.perfil{
+    position: relative;
+    top: -225px;
+    left: 150px
+
+}
+
+.perfil p{
+    font-size: 22px;
+    max-width: 70ch;  /* ch = maximo de caracteres */
+}
